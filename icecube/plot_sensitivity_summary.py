@@ -70,7 +70,7 @@ for tau, s in zip(tau_vals, sens_match):
     ax1.annotate(f'{s:.0f}', xy=(tau, s), xytext=(6, 4),
                  textcoords='offset points', fontsize=9, color='steelblue')
 
-ax1.set_xlabel('Signal duration  τ  (s)', fontsize=11)
+ax1.set_xlabel('Signal duration [s]', fontsize=11)
 ax1.set_ylabel('Signal events for 50% detection power', fontsize=11)
 ax1.set_title('Sensitivity vs. signal duration  (NuMix 1:1:1)', fontsize=11)
 ax1.set_xscale('log')

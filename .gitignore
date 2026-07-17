@@ -16,3 +16,8 @@ __pycache__/
 *.png
 *.jpg
 icecube/scrapbook.ipynb
+**.npz
+**.log
+icecube/.ipynb_checkpoints/
+.DS_store
+.claude
